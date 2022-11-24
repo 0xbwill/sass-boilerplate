@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+// import bootstrap node module
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 // 1. Configuration and helpers
 @import
   'abstracts/variables',
@@ -33,3 +36,5 @@
 // 7. Themes
 @import
   'themes/default';
+
+
